@@ -1,0 +1,20 @@
+{
+  "name": "crm-node",
+  "version": "1.0.0",
+  "description": "Backend for a CRM system tailored for the insurance industry.",
+  "license": "ISC",
+  "author": "Carlos De Grandchant",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node": "^20.19.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
